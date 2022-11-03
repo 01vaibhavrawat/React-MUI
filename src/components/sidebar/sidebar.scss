@@ -1,0 +1,41 @@
+body{
+    margin: 0;
+}
+#navbar{
+    background-color: map-get($theme, "bg");    
+}
+
+#avatar{
+  position: absolute;
+  top: 20%;
+  right: 2%;
+
+}
+#logo{
+   max-width: 15vw;
+}
+
+/* bp */
+a{
+  color: map-get($theme, "color");
+}
+
+.prod-bread-crumb{
+  color: #2c1762;
+}
+
+.sidebar-items{
+  font-size: 2rem;
+}
+
+@media only screen and (max-width: 768px) {
+    #logo{
+       max-width: 30vw;
+    }
+  }
+  
+@media only screen and (max-width: 600px) {
+    #logo{
+       max-width: 22vw;
+    }
+  }

@@ -1,0 +1,54 @@
+#newProdSubmit{
+  background-color: map-get($theme, "bg");
+  color: map-get($theme, "color");
+  position: relative;
+  left: 71%;
+  width: 29%;
+  margin-top: 3vh;
+}
+
+#editImages{
+  width: 135%;
+}
+
+#edit-images-modal{
+  background-color: white;
+  margin: 25vh 20vw 0 28vw;
+  padding: 2%;
+  border-radius: 1%;
+  box-shadow: rgba(0, 0, 0, 0.16) 0px 3px 6px, rgba(0, 0, 0, 0.23) 0px 3px 6px;
+
+   .edit-img-div{
+    margin-left: 2%;
+    display: inline;
+    position: relative;
+    box-shadow: rgba(136, 165, 191, 0.48) 6px 2px 16px 0px, rgba(255, 255, 255, 0.8) -6px -2px 16px 0px;
+    img{
+      max-width: 18%; 
+    }
+  } 
+}
+
+#image-delete{
+  position: absolute;
+  right: 1px;
+  background-color: #00000082;
+  color: white;
+  height: 30px;
+  width: 30px;
+  padding: 1px 0 0 3px;
+}
+
+#image-delete:hover{
+  cursor: pointer;
+  height: 35px;
+  width: 35px;
+  padding: 5px 0 0 4px;
+}
+
+#add-new-image{
+  padding-left: 15%;
+  text-align: center;
+  color: #6b696e; 
+  font-size: 1.3rem;
+}

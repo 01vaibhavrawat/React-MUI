@@ -1,0 +1,36 @@
+ #loader-background :first-child{
+    z-index: 999;
+    position: fixed;
+    bottom: 45%;
+    left: 50%;
+}
+
+#loader-background{
+    position: fixed;
+    padding: 60%;
+    background-color: white;
+    opacity: .5;
+} 
+
+
+.loader {
+    border: 5px solid #f3f3f3;
+    border-radius: 50%;
+    border-top: 5px solid #3498db;
+    width: 50px;
+    height: 50px;
+    -webkit-animation: spin 2s linear infinite; /* Safari */
+    animation: spin 1s linear infinite;
+  }
+  
+  /* Safari */
+  @-webkit-keyframes spin {
+    0% { -webkit-transform: rotate(0deg); }
+    100% { -webkit-transform: rotate(360deg); }
+  }
+  
+  @keyframes spin {
+    0% { transform: rotate(0deg); }
+    100% { transform: rotate(360deg); }
+  }  
+

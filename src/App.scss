@@ -1,0 +1,69 @@
+$theme: (
+  "bg": #2c1762,
+  "color": white,
+  "table-border-color": rgba(16, 57, 104, 0.3),
+);
+
+@mixin modal-submit-button {
+  background-color: map-get($theme, "bg");
+  color: map-get($theme, "color");
+  position: relative;
+  left: 0;
+  width: 15vw;
+  margin-top: 2vh;
+}
+
+
+#prod-table{
+    margin-top: 5vh;
+    border-radius: 1%;
+    box-shadow: map-get($theme, "table-border-color") 0px 0px 0px 3px;
+}
+
+#table-body{
+  border-top: 2px solid rgb(204, 198, 198);
+}
+
+#modalCancel{
+  background-color: map-get($theme, "bg");
+  color: map-get($theme, "color");
+  position: relative;
+  left: 26%;
+  width: 15vw;
+  margin-top: 2vh;
+} 
+
+#table-image {
+  max-width: 100px;
+}
+
+#clear-button {
+  background-color: map-get($theme, "bg");
+  color: map-get($theme, "color");
+  position: fixed;
+  left: 83%;
+  top: 12%;
+  width: 15%;
+}
+
+#addProdBtn2{
+  background-color: map-get($theme, "bg");
+  color: map-get($theme, "color");
+  width: 60%;
+  box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
+  float: right;
+}
+
+@import './components/sidebar/sidebar';
+@import './components/prodDesc/prodDesc';
+@import './components/addproduct/addProd';
+@import './components/productlist/productList.test';
+@import './components/login/login.test';
+@import './components/addBanner/addbanner';
+@import './components/banners/banners';
+@import './components/addCategory/addcategory';
+@import './components/dashboard/dashboard';
+@import './components/loader/loader';
+@import './components/noData/NoData';
+@import './components/delete/delete';
+@import './components/tableHeader/tableHeader';

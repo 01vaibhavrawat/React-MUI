@@ -1,0 +1,8 @@
+#addProdBtn{
+    background-color: map-get($theme, "bg");
+    color: map-get($theme, "color");
+    width: 20%;
+    box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
+    position: relative;
+    left: 80%;
+}

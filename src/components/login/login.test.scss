@@ -1,0 +1,82 @@
+.login-body{
+    background-repeat: no-repeat;
+    background-size: cover;
+    border: 1px solid black;
+    margin: 10% 30% 0 30%;
+}
+
+#login-header{
+    background-color: #2c1762;
+    height: 7vh;
+    text-align: center;
+}
+
+#logo-login{
+    background-color: map-get($theme, "bg");
+    max-width: 25vw;
+    margin-top: 1vh;
+}
+
+.login-box{
+    background-color: white;
+    border-radius: 2%;
+    padding: 1% 0% 4% 0;
+}
+
+#login-button{
+   margin: 0 1vw 1vh 0;
+   float: right;
+}
+
+.login-input-divs{
+    margin-bottom: 5vh;
+    min-width: 30vw;
+}
+
+#login-input-div1, #login-input-div2{
+    margin-bottom: 5vh;
+    min-width: 30vw;
+}
+
+#login-error{
+    width: 100%;
+    color: red;
+    margin-bottom: 10%;
+    text-align: left;
+}
+
+@media only screen and (max-width: 600px) {
+    /* For mobile phones: */
+    #login-header{
+        height: 5vh;
+    }
+    
+    #logo-login{
+        max-width: 50vw;
+    }
+
+    .login-body{
+        background-repeat: no-repeat;
+        background-size: cover;
+        border: 1px solid black;
+        margin: 10% 10% 0 10%;
+    }
+    
+  }
+  
+  @media only screen and (max-width: 768px) {
+    /* For tablets: */
+    #login-header{
+        height: 5vh; 
+    }
+
+    .login-body{
+        margin: 10% 10% 0 10%;
+    }
+    
+    #logo-login{
+        max-width: 50vw;
+    }
+
+  }
+
